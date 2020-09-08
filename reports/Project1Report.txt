@@ -1,0 +1,13 @@
+Data was obtained from the National Oceanic and Atmospheric Administration
+(NOAA). Two data files were retrieved from NOAA. The first dataset obtained was
+a survey of the populations of fish in the waters around St. John, the smallest
+of the three U.S. Virgin Islands. The second dataset obtained was a survey of
+the populations of coral in the waters around St. John. Some of the data in the
+dataset includes, but is not limited to, the habitat these marine organisms were
+found in, the species of the organisms, and the amount of coral observed to be
+dead or infected with disease.
+
+The two datasets contained common columns, and the pandas library was utilized
+to join the two datasets on these common columns. The end result is a single
+table that makes parsing the data somewhat easier without the need to reference
+data from multiple datasets.
